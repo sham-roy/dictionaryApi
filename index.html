@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/95d1f99e45.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-stone-600">
+    <div class="">
+        <p class="text-center font-bold mt-8"> <i class="fa-solid fa-spell-check fa-2x text-amber-400"></i> Online Dictionary</p>
+        <div class="flex justify-center mt-5 ">
+            <form class="flex items-center ">
+                <input id="word" class="rounded p-2" type="text" placeholder="Search...">
+                <button onclick="search()" class="ml-2 bg-amber-500 hover:bg-fuchsia-700 text-white font-bold py-2 px-4 rounded" type="button">
+                    Search
+                </button>
+            </form>
+        </div>
+        <div id="result" class="flex justify-center mt-5 font-serif">
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
